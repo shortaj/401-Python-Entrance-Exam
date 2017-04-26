@@ -1,0 +1,53 @@
+@font-face {
+  font-family: Droid-Sans-Bold;
+  src: url(../Resources/Font/droid-sans/DroidSans-Bold.ttf);
+}
+a.menuButtons {
+  font-size: 1em;
+  font-family: Droid-Sans-Bold;
+  color: #878787;
+  padding: 20px 10px 20px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+
+}
+a.menuButtons:hover {
+    color: #FFFFFF;
+}
+ul.menuButtons li{
+  display: inline-block;
+  margin-left: -4px;
+}
+div.headerMenuButton {
+  border-style: solid;
+  border-top-width: 10px;
+  border-color: #000000;
+}
+div.headerMenuButton:hover {
+  border-color: #E00000;
+}
+.headerMenu {
+  background-color: #2D2D2D;
+}
+.socialMediaIcons {
+  float: right;
+  display: inline-block;
+}
+#Facebook {
+  zoom: 12%;
+}
+#Twitter {
+  zoom: 48%;
+}
+#Instagram {
+  zoom: 70%;
+  margin: -1%;
+}
+#LinkedIn {
+  zoom: 49%;
+}
+/*facebook icon zoom 12%
+  twitter icon zoom 48%
+  instagram icon zoom 70%, margin -1%
+  linkedin icon zoom 49%*/
