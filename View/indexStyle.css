@@ -15,9 +15,13 @@ a.menuButtons {
 a.menuButtons:hover {
     color: #FFFFFF;
 }
+ul.menuButtons {
+  width: 50%;
+  float: left;
+}
 ul.menuButtons li{
   display: inline-block;
-  margin-left: -4px;
+  margin-right: -4px;
 }
 div.headerMenuButton {
   border-style: solid;
@@ -29,23 +33,38 @@ div.headerMenuButton:hover {
 }
 .headerMenu {
   background-color: #2D2D2D;
+  overflow: hidden;
 }
-.socialMediaIcons {
+ul.socialMediaIcons {
   float: right;
+}
+div#left.headerMenu {
+  width: 50%;
+  float: left;
+}
+div#right.headerMenu {
+  width: 50%;
+  float: right;
+}
+ul.socialMediaIcons li {
   display: inline-block;
 }
+div.icon {
+  padding: 15px;
+}
 #Facebook {
-  zoom: 12%;
+  zoom: 8%;
 }
 #Twitter {
-  zoom: 48%;
+  zoom: 32%;
 }
 #Instagram {
-  zoom: 70%;
-  margin: -1%;
+  zoom: 44%;
+  margin: -17%;
+  margin-right: -35px;
 }
 #LinkedIn {
-  zoom: 49%;
+  zoom: 33%;
 }
 /*facebook icon zoom 12%
   twitter icon zoom 48%
