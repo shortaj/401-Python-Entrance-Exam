@@ -1,8 +1,79 @@
+p {
+  font-family: Helvetica;
+  font-weight: lighter;
+}
+
+h2 {
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 1.5em;
+}
+
+h3 {
+  font-family: Helvetica;
+  font-weight: lighter;
+  font-size: 1em;
+}
+
 @font-face {
   font-family: Droid-Sans-Bold;
   src: url(../Resources/Font/droid-sans/DroidSans-Bold.ttf);
 }
-a.menuButtons {
+
+li {
+  display: inline-block;
+}
+
+.wrapper {
+  width: 1000px;
+  background-color: black;
+  position: relative;
+  margin: 0 auto;
+}
+
+.header {
+  width: 1000px;
+  height: 75px;
+  background-color: grey;
+}
+
+.content {
+  width: 1000px;
+  position: relative;
+  overflow: hidden;
+}
+#bigpic {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+}
+#mainKitten {
+  width: 1000px;
+}
+#sidetext{
+  width: 300px;
+  position: absolute;
+  opacity: 0.7;
+}
+.sidebar {
+  width: 1000px;
+  position: relative;
+}
+.footer {
+  width: 1000px;
+}
+a {
+  text-decoration: none;
+}
+
+#iconUl {
+    float: right;
+}
+
+.button {
+  border-style: solid;
+  border-top-width: 10px;
+  border-color: #000000;
   font-size: 1em;
   font-family: Droid-Sans-Bold;
   color: #878787;
@@ -10,48 +81,24 @@ a.menuButtons {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-
-}
-a.menuButtons:hover {
-    color: #FFFFFF;
-}
-ul.menuButtons {
-  width: 50%;
-  float: left;
-}
-ul.menuButtons li{
-  display: inline-block;
   margin-right: -4px;
 }
-div.headerMenuButton {
-  border-style: solid;
-  border-top-width: 10px;
-  border-color: #000000;
+
+.button:hover {
+    border-color: #E00000;
+    color: #FFFFFF;
 }
-div.headerMenuButton:hover {
-  border-color: #E00000;
-}
-.headerMenu {
-  background-color: #2D2D2D;
-  overflow: hidden;
-}
-ul.socialMediaIcons {
-  float: right;
-}
-div#left.headerMenu {
-  width: 50%;
+#menuButtons {
   float: left;
+  width: 500px;
+
 }
-div#right.headerMenu {
-  width: 50%;
+
+#socialMediaIcons {
   float: right;
+  width: 500px;
 }
-ul.socialMediaIcons li {
-  display: inline-block;
-}
-div.icon {
-  padding: 15px;
-}
+
 #Facebook {
   zoom: 8%;
 }
@@ -66,7 +113,3 @@ div.icon {
 #LinkedIn {
   zoom: 33%;
 }
-/*facebook icon zoom 12%
-  twitter icon zoom 48%
-  instagram icon zoom 70%, margin -1%
-  linkedin icon zoom 49%*/
