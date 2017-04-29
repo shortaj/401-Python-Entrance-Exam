@@ -1,18 +1,18 @@
 p {
   font-family: Helvetica;
-  font-weight: lighter;
+  font-weight: lighter;;
 }
 
 h2 {
   font-family: Helvetica;
   font-weight: lighter;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 h3 {
   font-family: Helvetica;
   font-weight: lighter;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 @font-face {
@@ -26,7 +26,6 @@ li {
 
 .wrapper {
   width: 1000px;
-  background-color: black;
   position: relative;
   margin: 0 auto;
 }
@@ -34,7 +33,7 @@ li {
 .header {
   width: 1000px;
   height: 75px;
-  background-color: grey;
+  background-color: #2D2D2D;
 }
 
 .content {
@@ -46,15 +45,70 @@ li {
   overflow: hidden;
   width: 100%;
   position: relative;
+  z-index: 1;
 }
 #mainKitten {
   width: 1000px;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+
 }
-#sidetext{
+div#sidetextBox{
   width: 300px;
   position: absolute;
   opacity: 0.7;
+  height: 100%;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  background-color: #3A3A3A;
 }
+
+#sidetext {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  top: 0;
+  left: 25px;
+  color: #FFFFFF;
+  width: 250px;
+  height: 100%;
+  z-index: 4;
+  position: absolute;
+}
+
+h2.sidetext {
+  font-size: 2em;
+  font-weight: lighter;
+}
+
+p.sidetext {
+  font-size: 1.5em;
+  font-weight: lighter;
+  text-align: left;
+}
+
+h3#moreButton {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+div#moreButton {
+  position: absolute;
+  background-color: #E00000;
+  text-align: center;
+  color: #FFFFFF;
+  z-index: 5;
+  height: 60px;
+  width: 200px;
+  top: 485px;
+  left: 49px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .sidebar {
   width: 1000px;
   position: relative;
@@ -70,14 +124,17 @@ a {
     float: right;
 }
 
-.button {
-  border-style: solid;
-  border-top-width: 10px;
-  border-color: #000000;
+a.button {
   font-size: 1em;
   font-family: Droid-Sans-Bold;
   color: #878787;
-  padding: 20px 10px 20px 10px;
+}
+
+div.button {
+  border-style: solid;
+  border-top-width: 10px;
+  border-color: #000000;
+  padding: 20px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -112,4 +169,71 @@ a {
 }
 #LinkedIn {
   zoom: 33%;
+}
+
+.icon {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+#circles {
+  position: absolute;
+  z-index: 7;
+  top: 540px;
+  left: 400px;
+}
+li#filledCircle.emptyCircle {
+  background-color: #FFFFFF;
+}
+li.emptyCircle {
+  display: inline-block;
+  border: solid;
+  color: #FFFFFF;
+  margin: 7px;
+  border-radius: 50%;
+  padding: 10px;
+}
+#separator {
+  height: 150px;
+  width: 100%;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.articleSet {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+div.articlePic {
+  float: left;
+  width: 490px;
+  height: 300px;
+}
+img.articlePic {
+  width: 100%;
+  height: 100%;
+}
+.articleText {
+  float: right;
+  padding: 10px 20px 10px 20px;
+  color: #FFFFFF;
+  background-color: #3A3A3A;
+  width: 460px;
+  height: 280px;
+  position: relative;
+}
+.footer {
+  width: 100%;
+  height: 40px;
+  color: #FFFFFF;
+  background-color: #2D2D2D;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
 }
