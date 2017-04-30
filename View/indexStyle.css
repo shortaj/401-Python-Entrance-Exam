@@ -1,18 +1,6 @@
-p {
-  font-family: Helvetica;
-  font-weight: lighter;;
-}
-
-h2 {
-  font-family: Helvetica;
-  font-weight: lighter;
-  font-size: 2em;
-}
-
-h3 {
-  font-family: Helvetica;
-  font-weight: lighter;
-  font-size: 1.5em;
+@font-face {
+  font-family: Helvetica-Light;
+  src: url(../Resources/Font/helvetica-light.ttf);
 }
 
 @font-face {
@@ -20,16 +8,12 @@ h3 {
   src: url(../Resources/Font/droid-sans/DroidSans-Bold.ttf);
 }
 
-li {
-  display: inline-block;
-}
-
 .wrapper {
   width: 1000px;
   position: relative;
   margin: 0 auto;
-}
 
+}
 .header {
   width: 1000px;
   height: 75px;
@@ -41,6 +25,39 @@ li {
   position: relative;
   overflow: hidden;
 }
+
+p {
+  font-family: Helvetica-Light;
+}
+
+h2 {
+  font-family: Helvetica-Light;
+  font-size: 2em;
+}
+
+h3 {
+  font-family: Helvetica-Light;
+  font-size: 1.5em;
+}
+hr {
+  width: 180px;
+  height: 3px;
+  border: none;
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+}
+hr.left {
+  margin-left: 0;
+}
+hr#blackhr {
+  color: #000000;
+  background-color: #000000;
+}
+
+li {
+  display: inline-block;
+}
+
 #bigpic {
   overflow: hidden;
   width: 100%;
