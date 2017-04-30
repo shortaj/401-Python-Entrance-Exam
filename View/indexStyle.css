@@ -1,0 +1,256 @@
+@font-face {
+  font-family: Helvetica-Light;
+  src: url(../Resources/Font/helvetica-light.ttf);
+}
+
+@font-face {
+  font-family: Droid-Sans-Bold;
+  src: url(../Resources/Font/droid-sans/DroidSans-Bold.ttf);
+}
+
+.wrapper {
+  width: 1000px;
+  position: relative;
+  margin: 0 auto;
+
+}
+.header {
+  width: 1000px;
+  height: 75px;
+  background-color: #2D2D2D;
+}
+
+.content {
+  width: 1000px;
+  position: relative;
+  overflow: hidden;
+}
+
+p {
+  font-family: Helvetica-Light;
+}
+
+h2 {
+  font-family: Helvetica-Light;
+  font-size: 2em;
+}
+
+h3 {
+  font-family: Helvetica-Light;
+  font-size: 1.5em;
+}
+hr {
+  width: 180px;
+  height: 3px;
+  border: none;
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+}
+hr.left {
+  margin-left: 0;
+}
+hr#blackhr {
+  color: #000000;
+  background-color: #000000;
+}
+
+li {
+  display: inline-block;
+}
+
+#bigpic {
+  overflow: hidden;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+#mainKitten {
+  width: 1000px;
+  height: 100%;
+  position: relative;
+  z-index: 2;
+
+}
+div#sidetextBox{
+  width: 300px;
+  position: absolute;
+  opacity: 0.7;
+  height: 100%;
+  z-index: 3;
+  top: 0;
+  left: 0;
+  background-color: #3A3A3A;
+}
+
+#sidetext {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  top: 0;
+  left: 25px;
+  color: #FFFFFF;
+  width: 250px;
+  height: 100%;
+  z-index: 4;
+  position: absolute;
+}
+
+h2.sidetext {
+  font-size: 2em;
+  font-weight: lighter;
+}
+
+p.sidetext {
+  font-size: 1.5em;
+  font-weight: lighter;
+  text-align: left;
+}
+
+h3#moreButton {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+div#moreButton {
+  position: absolute;
+  background-color: #E00000;
+  text-align: center;
+  color: #FFFFFF;
+  z-index: 5;
+  height: 60px;
+  width: 200px;
+  top: 485px;
+  left: 49px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sidebar {
+  width: 1000px;
+  position: relative;
+}
+.footer {
+  width: 1000px;
+}
+a {
+  text-decoration: none;
+}
+
+#iconUl {
+    float: right;
+}
+
+a.button {
+  font-size: 1em;
+  font-family: Droid-Sans-Bold;
+  color: #878787;
+}
+
+div.button {
+  border-style: solid;
+  border-top-width: 10px;
+  border-color: #000000;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: -4px;
+}
+
+.button:hover {
+    border-color: #E00000;
+    color: #FFFFFF;
+}
+#menuButtons {
+  float: left;
+  width: 500px;
+
+}
+
+#socialMediaIcons {
+  float: right;
+  width: 500px;
+}
+
+#Facebook {
+  zoom: 8%;
+}
+#Twitter {
+  zoom: 32%;
+}
+#Instagram {
+  zoom: 44%;
+  margin: -17%;
+  margin-right: -35px;
+}
+#LinkedIn {
+  zoom: 33%;
+}
+
+.icon {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+#circles {
+  position: absolute;
+  z-index: 7;
+  top: 540px;
+  left: 400px;
+}
+li#filledCircle.emptyCircle {
+  background-color: #FFFFFF;
+}
+li.emptyCircle {
+  display: inline-block;
+  border: solid;
+  color: #FFFFFF;
+  margin: 7px;
+  border-radius: 50%;
+  padding: 10px;
+}
+#separator {
+  height: 150px;
+  width: 100%;
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+.articleSet {
+  width: 100%;
+  height: 300px;
+  position: relative;
+  margin-bottom: 30px;
+}
+
+div.articlePic {
+  float: left;
+  width: 490px;
+  height: 300px;
+}
+img.articlePic {
+  width: 100%;
+  height: 100%;
+}
+.articleText {
+  float: right;
+  padding: 10px 20px 10px 20px;
+  color: #FFFFFF;
+  background-color: #3A3A3A;
+  width: 460px;
+  height: 280px;
+  position: relative;
+}
+.footer {
+  width: 100%;
+  height: 40px;
+  color: #FFFFFF;
+  background-color: #2D2D2D;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
