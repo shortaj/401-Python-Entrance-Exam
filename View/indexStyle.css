@@ -25,6 +25,16 @@
   position: relative;
   overflow: hidden;
 }
+.footer {
+  width: 100%;
+  height: 40px;
+  color: #FFFFFF;
+  background-color: #2D2D2D;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
 
 p {
   font-family: Helvetica-Light;
@@ -243,14 +253,4 @@ img.articlePic {
   width: 460px;
   height: 280px;
   position: relative;
-}
-.footer {
-  width: 100%;
-  height: 40px;
-  color: #FFFFFF;
-  background-color: #2D2D2D;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  flex-direction: column;
 }
