@@ -1,0 +1,226 @@
+@font-face {
+  font-family: Helvetica-Light;
+  src: url(../Resources/Font/helvetica-light.ttf);
+}
+
+@font-face {
+  font-family: Droid-Sans-Bold;
+  src: url(../Resources/Font/droid-sans/DroidSans-Bold.ttf);
+}
+
+h3#contactTxt {
+  font-family: Helvetica;
+  font-weight: bold;
+}
+.wrapper {
+  width: 1000px;
+  position: relative;
+  margin: 0 auto;
+
+}
+.header {
+  width: 1000px;
+  height: 75px;
+  background-color: #2D2D2D;
+}
+.bigpic {
+  width: 100%;
+  height: 470px;
+  overflow: hidden;
+}
+#contactCat {
+  width: 100%;
+  height: 550px;
+  overflow: hidden;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+.content {
+  width: 1000px;
+  position: relative;
+  overflow: hidden;
+}
+.catDiv {
+  position: relative;
+}
+.catTxt {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  border: solid;
+  border-color: #FFFFFF;
+  border-width: 10px;
+  width: 800px;
+  height: 240px;
+  top: 90px;
+  left: 100px;
+  color: #FFFFFF;
+}
+p {
+  font-family: Helvetica-Light;
+}
+
+h1 {
+  font-family: Droid-Sans-Bold;
+  font-size: 3.5em;
+}
+
+h1#input {
+  font-family: Helvetica-Light;
+}
+
+h2 {
+  font-family: Helvetica-Light;
+  font-size: 2em;
+}
+
+h3 {
+  font-family: Helvetica-Light;
+  font-size: 1.5em;
+}
+hr {
+  width: 180px;
+  height: 3px;
+  border: none;
+  color: #FFFFFF;
+  background-color: #FFFFFF;
+}
+hr.left {
+  margin-left: 0;
+}
+hr#blackhr {
+  color: #000000;
+  background-color: #000000;
+}
+
+li.headerButtons {
+  display: inline-block;
+}
+.footer {
+  width: 100%;
+  height: 40px;
+  color: #FFFFFF;
+  background-color: #2D2D2D;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+a {
+  text-decoration: none;
+}
+a.button {
+  font-size: 1em;
+  font-family: Droid-Sans-Bold;
+  color: #878787;
+}
+
+div.button {
+  border-style: solid;
+  border-top-width: 10px;
+  border-color: #000000;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin-right: -4px;
+}
+
+.button:hover {
+    border-color: #E00000;
+    color: #FFFFFF;
+}
+
+#menuButtons {
+  float: left;
+  width: 500px;
+}
+
+#socialMediaIcons {
+  float: right;
+  width: 500px;
+}
+#iconUl {
+    float: right;
+}
+
+#Facebook {
+  zoom: 8%;
+}
+#Twitter {
+  zoom: 32%;
+}
+#Instagram {
+  zoom: 44%;
+  margin: -17%;
+  margin-right: -35px;
+}
+#LinkedIn {
+  zoom: 33%;
+}
+
+.icon {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.inputDiv {
+  color: #FFFFFF;
+  background-color: #3A3A3A;
+  width: 1000px;
+  height: 600px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+}
+
+.inputText {
+  width: 800px;
+  height: 550px;
+  margin: auto;
+}
+
+.inputForms {
+  position: absolute;
+  top: 120px;
+  left: 370px;
+
+}
+.inputNamesDiv {
+  position: absolute;
+  top: 110px;
+  left: 200px;
+}
+.inputNames {
+  margin: 45px 0;
+  text-align: left;
+}
+.inputBox {
+  text-align: left;
+  margin: 15px 0;
+}
+input[type=text] {
+  height: 50px;
+  width: 450px;
+}
+textarea {
+  resize: none;
+  width: 450px;
+}
+.contactButton {
+  position: absolute;
+  width: 170px;
+  height: 60px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  top: 490px;
+  left: 656px;
+  background-color: #F00000;
+}

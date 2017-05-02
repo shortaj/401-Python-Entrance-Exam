@@ -1,0 +1,22 @@
+{
+  "name": "401-python-entrance-html",
+  "version": "1.0.0",
+  "description": "The sample cat pages demonstrating front end.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shortaj/401-Python-Entrance-Exam.git"
+  },
+  "keywords": [
+    "cat"
+  ],
+  "author": "Alex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shortaj/401-Python-Entrance-Exam/issues"
+  },
+  "homepage": "https://github.com/shortaj/401-Python-Entrance-Exam#readme"
+}
