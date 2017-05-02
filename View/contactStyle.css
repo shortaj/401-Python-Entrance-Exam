@@ -8,6 +8,10 @@
   src: url(../Resources/Font/droid-sans/DroidSans-Bold.ttf);
 }
 
+h3#contactTxt {
+  font-family: Helvetica;
+  font-weight: bold;
+}
 .wrapper {
   width: 1000px;
   position: relative;
