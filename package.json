@@ -1,0 +1,26 @@
+{
+  "name": "401html",
+  "version": "1.0.0",
+  "description": "cat app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shortaj/401-Python-Entrance-Exam.git"
+  },
+  "keywords": [
+    "npm"
+  ],
+  "author": "Alex",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shortaj/401-Python-Entrance-Exam/issues"
+  },
+  "homepage": "https://github.com/shortaj/401-Python-Entrance-Exam#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "nodejs": "^6.10.2"
+  }
+}
