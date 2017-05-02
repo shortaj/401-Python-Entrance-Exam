@@ -2,7 +2,7 @@
   "name": "401-python-entrance-html",
   "version": "1.0.0",
   "description": "The sample cat pages demonstrating front end.",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
