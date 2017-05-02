@@ -1,11 +1,11 @@
 @font-face {
   font-family: Helvetica-Light;
-  src: url(../Resources/Font/helvetica-light.ttf);
+  src: url(/Resources/Font/helvetica-light.ttf);
 }
 
 @font-face {
   font-family: Droid-Sans-Bold;
-  src: url(../Resources/Font/droid-sans/DroidSans-Bold.ttf);
+  src: url(/Resources/Font/droid-sans/DroidSans-Bold.ttf);
 }
 
 h3#contactTxt {

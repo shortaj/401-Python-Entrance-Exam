@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/shortaj/401-Python-Entrance-Exam#readme",
   "dependencies": {
-    "express": "^4.15.2",
-    "nodejs": "^6.10.2"
+    "express": "^4.15.2"
   }
 }
