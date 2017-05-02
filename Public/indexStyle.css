@@ -71,6 +71,7 @@ li {
 #bigpic {
   overflow: hidden;
   width: 100%;
+  height: 640px;
   position: relative;
   z-index: 1;
 }
@@ -85,7 +86,7 @@ div#sidetextBox{
   width: 300px;
   position: absolute;
   opacity: 0.7;
-  height: 100%;
+  height: 640px;
   z-index: 3;
   top: 0;
   left: 0;
